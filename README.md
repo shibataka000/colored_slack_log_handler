@@ -18,6 +18,7 @@ from colored_slack_log_handler import SlackHandler
 webhook_url = "https://hooks.slack.com/services/AAA/BBB/CCC"  # URL of Slack Incoming Webhook
 
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
 
 slack_handler = SlackHandler(webhook_url)
 logger.addHandler(slack_handler)
