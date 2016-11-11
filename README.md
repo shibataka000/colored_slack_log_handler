@@ -4,10 +4,6 @@
 
 Python color-coding Slack log handler.
 
-## Requirement
-- requirements
-- logging
-
 ## Usage
 ```python
 # coding: utf-8
