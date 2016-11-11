@@ -10,7 +10,7 @@ setup(
     url="https://github.com/shibataka000/colored_slack_log_handler",
     license="",
     keyword="slack",
-    install_requires=["logging", "requests"],
+    install_requires=["requests"],
     setup_requires=["pytest-runner", "flake8"],
     tests_requires=["pytest", "mock"],
 )
