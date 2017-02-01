@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="colored_slack_log_handler",
-    version="0.0.1",
+    version="0.0.2",
     packages=find_packages(),
     description=("Python color-coding Slack log handler"),
     author="shibataka000",
