@@ -1,6 +1,6 @@
 # colored\_slack\_log\_handler
 
-[![Build Status](https://travis-ci.org/shibataka000/colored_slack_log_handler.svg?branch=master)](https://travis-ci.org/shibataka000/colored_slack_log_handler)
+[![CircleCI](https://circleci.com/gh/shibataka000/colored_slack_log_handler.svg?style=svg)](https://circleci.com/gh/shibataka000/colored_slack_log_handler)
 
 Python color-coding Slack log handler.
 

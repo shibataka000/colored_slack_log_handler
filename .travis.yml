@@ -1,7 +1,0 @@
-language: python
-python:
-  - "3.6"
-script:
-  - "python setup.py install"
-  - "pip install -r test-requirements.txt"
-  - "pytest"
