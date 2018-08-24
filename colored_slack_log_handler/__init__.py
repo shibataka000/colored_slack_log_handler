@@ -1,10 +1,16 @@
-# coding: utf-8
+"""
+Color-coding Slack log handler
+"""
 
 import logging
 import requests
 
 
 class SlackHandler(logging.Handler):
+    """
+    Color-coding Slack log handler
+    """
+
     COLOR_DICT = {
         logging.NOTSET: "good",
         logging.DEBUG: "good",
