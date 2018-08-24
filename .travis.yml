@@ -1,7 +1,7 @@
 language: python
 python:
-  - "2.7"
-  - "3.5"
+  - "3.6"
 script:
-  - "python setup.py test"
-  - "python setup.py flake8"
+  - "python setup.py install"
+  - "pip install -r test-requirements.txt"
+  - "pytest"
