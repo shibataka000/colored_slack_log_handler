@@ -16,7 +16,7 @@ def find_install_requires():
 
 setup(
     name="colored_slack_log_handler",
-    version="0.0.2",
+    version="0.0.6",
     description="Python color-coding Slack log handler",
     author="shibataka000",
     url="https://github.com/shibataka000/colored_slack_log_handler",
