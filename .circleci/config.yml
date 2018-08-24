@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  test:
     docker:
       - image: python
     steps:
@@ -20,3 +20,18 @@ jobs:
       - store_artifacts:
           path: htmlcov
           destination: coverage
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - test
+  nightly:
+    jobs:
+      - test
+    triggers:
+      - schedule:
+          cron: "0 0 * * 0"
+          filters:
+            branches:
+              only:
+                - master
