@@ -6,8 +6,6 @@ Python color-coding Slack log handler.
 
 ## Usage
 ```python
-# coding: utf-8
-
 import logging
 from colored_slack_log_handler import SlackHandler
 
